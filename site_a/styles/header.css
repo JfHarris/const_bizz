@@ -1,0 +1,8 @@
+header {
+    background-color: white;
+    height: 10vh;
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
