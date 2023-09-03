@@ -12,8 +12,8 @@ body {
 
 .tooltipTop {
     position: absolute;
-    left: 550px;
-    top: 250px;
+    left: 37%;
+    top: 37%;
 }
 
 .tooltipTopWindow {
@@ -67,8 +67,142 @@ body {
     padding: 1rem;
 }
 
+.tooltipMiddle {
+    position: absolute;
+    left: 37%;
+    top: 137%;
+}
+
+.tooltipMiddleDoor {
+    position: absolute;
+    left: 45%;
+    top: 175%;
+}
+
+.middle {
+    font-size: x-large;
+    color: white;
+}
+
+.tooltipMiddle .tooltipMiddleText {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 120px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 6px;
+    top: -5px;
+    right: 105%;
+}
+
+.tooltipMiddleDoor .tooltipMiddleText {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 120px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 6px;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltipMiddle:hover .tooltipMiddleText {
+    visibility: visible;
+}
+
+.tooltipMiddleDoor:hover .tooltipMiddleText {
+    visibility: visible;
+}
+
 .section3 {
     background-color: yellow;
     height: auto;
     padding: 1rem;
 }
+
+.tooltipBottom {
+    position: absolute;
+    left: 37%;
+    top: 260%;
+}
+
+.tooltipBottomRight {
+    position: absolute;
+    left: 60%;
+    top: 240%;
+}
+
+.bottom {
+    font-size: x-large;
+    color: black;
+    padding: 0.5rem;
+}
+
+.tooltipBottom .tooltipBottomText {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 6px;
+    top: -5px;
+    right: 105%;
+}
+
+.tooltipBottom .tooltipBottomText::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+
+.tooltipBottomRight .tooltipBottomText {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 6px;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -75px;
+}
+
+.tooltipBottomRight .tooltipBottomText::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltipBottom:hover .tooltipBottomText {
+    visibility: visible;
+}
+
+.tooltipBottomRight:hover .tooltipBottomText {
+    visibility: visible;
+}
+
