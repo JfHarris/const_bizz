@@ -18,8 +18,8 @@ body {
 
 .tooltipTopWindow {
     position: absolute;
-    left: 900px;
-    top: 325px;
+    left: 60%;
+    top: 45%;
 }
 
 .tooltipTop .tooltipTextTop {
@@ -111,7 +111,7 @@ body {
     width: 120px;
     bottom: 100%;
     left: 50%;
-    margin-left: -60px;
+    margin-left: -75px;
 }
 
 .tooltipMiddle:hover .tooltipMiddleText {
@@ -206,3 +206,82 @@ body {
     visibility: visible;
 }
 
+/* Responsive Adjustments */
+
+@media screen and (max-width: 768px) {
+    /*Top Section */
+    .tooltipTop {
+        position: absolute;
+        left: 37%;
+        top: 22%;
+    }
+    
+    .tooltipTopWindow {
+        position: absolute;
+        left: 57%;
+        top: 25%;
+    }
+    /* Second Section */
+    .tooltipMiddle {
+        position: absolute;
+        left: 36%;
+        top: 75%;
+    }
+    
+    .tooltipMiddleDoor {
+        position: absolute;
+        left: 45%;
+        top: 90%;
+    }
+    /*Third Section */
+    .tooltipBottom {
+        position: absolute;
+        left: 34%;
+        top: 132%;
+    }
+    
+    .tooltipBottomRight {
+        position: absolute;
+        left: 54%;
+        top: 122%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /*Top Section */
+    .tooltipTop {
+        position: absolute;
+        left: 37%;
+        top: 10%;
+    }
+    
+    .tooltipTopWindow {
+        position: absolute;
+        left: 30%;
+        top: 30%;
+    }
+    /* Second Section */
+    .tooltipMiddle {
+        position: absolute;
+        left: 36%;
+        top: 75%;
+    }
+    
+    .tooltipMiddleDoor {
+        position: absolute;
+        left: 45%;
+        top: 90%;
+    }
+    /* Third Section */
+    .tooltipBottom {
+        position: absolute;
+        left: 36%;
+        top: 90%;
+    }
+    
+    .tooltipBottomRight {
+        position: absolute;
+        left: 60%;
+        top: 240%;
+    }
+}

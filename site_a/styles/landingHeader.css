@@ -1,0 +1,42 @@
+header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    left: 0;
+    box-sizing: border-box;
+    border-bottom-style: none;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+    height: auto;
+}
+
+.headerContent {
+    position: relative;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+}
+
+.logoHeader {
+    position: relative;
+}
+
+.headerNav {
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    justify-content: space-around;
+}
+
+.headerNav a {
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
